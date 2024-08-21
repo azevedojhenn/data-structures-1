@@ -3,4 +3,9 @@ project(data_structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(data_structures main.c)
+add_executable(data_structures main.c
+        "1- Insertion Sort/InsertionSort.c"
+        "1- Insertion Sort/InsertionSort.h"
+        "1- Insertion Sort/OneHundredThousand.c"
+        "1- Insertion Sort/OneMillion.c"
+)
