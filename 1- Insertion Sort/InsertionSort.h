@@ -13,7 +13,7 @@ void insertion_sort(int *v, int size);
  * @param list Pointer to the first element of the vector.
  * @param size Vector size.
  */
-void sorted_list(int *list, int size);
+void create_sorted_list(int *list, int size);
 
 /**
  * Print the values of the list

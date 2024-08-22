@@ -19,7 +19,7 @@ void insertion_sort(int *v, int size)
     }
 }
 
-void sorted_list(int *list, int size)
+void create_sorted_list(int *list, int size)
 {
     srand(time(NULL));
     for (int i = 0; i < size; ++i) {
