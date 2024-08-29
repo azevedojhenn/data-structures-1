@@ -3,9 +3,10 @@ project(data_structures C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(data_structures main.c
-        "1- Insertion Sort/InsertionSort.c"
-        "1- Insertion Sort/InsertionSort.h"
-        "1- Insertion Sort/OneHundredThousand.c"
-        "1- Insertion Sort/OneMillion.c"
+add_executable(data_structures "sorting algorithms/random-list.c"
+        "sorting algorithms/a/InsertionSort.c"
+        "sorting algorithms/a/InsertionSort.h"
+        "sorting algorithms/mylib.h"
+        "sorting algorithms/mylib.c"
+        "sorting algorithms/insertion-sort.c"
 )
