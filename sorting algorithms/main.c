@@ -1,4 +1,4 @@
-#include "mylib.h"
+#include "../mylib.h"
 #include "stdio.h"
 
 void insertion_sort(int *v, int size)
@@ -19,11 +19,7 @@ void insertion_sort(int *v, int size)
 }
 
 int main() {
-    int a = 10000, b = 100000, c = 10000000;
-    int sorted_list1[a], sorted_list2[b], sorted_list3[c];
-    read_data(sorted_list1, 10000);
-    insertion_sort(sorted_list1, 10000);
-    show_list(sorted_list1, 10000);
+    
 
     return 0;
 }
