@@ -31,7 +31,7 @@ void read_data(int *arr, int size) {
                 "/home/jhennifer/Repositories/data-structures-1/sorting algorithms/files/random-num-100000.out", "rb");
     } else if (size == 1000000) {
         file = fopen(
-                "/home/jhennifer/Repositories/data-structures-1/sorting algorithms/files/random-num-100000.out", "rb");
+                "/home/jhennifer/Repositories/data-structures-1/sorting algorithms/files/random-num-1000000.out", "rb");
     } else {
         printf("Tamanho do array inválido.\n");
         exit(1);
