@@ -4,8 +4,10 @@
 int main() {
     int total;
     const int x = 10000, y = 100000, z = 1000000;
+
     printf("Quantos numeros? ");
-    scanf("%d", &total);
+    if (!scanf("%d", &total))
+        printf("scanf error.");
 
     if (total==x){
         int a[x];
